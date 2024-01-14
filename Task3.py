@@ -5,15 +5,10 @@
 input_string = input("Enter a string: ")
 
 search_word = input("Enter a word to search for: ")
+
 replace_word = input("Enter a replacement word ")
 
-words = input_string.split()
+result_string = input_string.replace(search_word, replace_word)
 
-for i in range(len(words)):
+print("The resulting string:", result_string)Fifth
 
-    if words[i] == search_word:
-        words[i] = replace_word
-
-result_string = ' '.join(words)
-
-print("The resulting string:", result_string)
