@@ -10,5 +10,5 @@ replace_word = input("Enter a replacement word ")
 
 result_string = input_string.replace(search_word, replace_word)
 
-print("The resulting string:", result_string)Fifth
+print("The resulting string:", result_string)
 
